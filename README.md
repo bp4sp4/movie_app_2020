@@ -2,6 +2,11 @@
 ## movie_app_2020
 React JS Fundametals Course 2020
 
+## 10월 9일
+1. props 의 자료형을 검사할수 있도록 만들어주는 prop-types라는 도구가 필요하다.
+2. prp-type 설치 명령어는 (npm install prob-types)
+3. prop-types 를 설치한후 정상 설치여부를 확인할려면 Package.json 파일을 열어 dependencies 키값이 있는지 확인한다.
+
 
 ## 9월 25 일
 1.  어떤 브라우저던 F12 개발자 도구이다.
