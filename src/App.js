@@ -1,29 +1,28 @@
 import React from'react';
 
+
 class App extends React.Component {
     state = {
-        count : 0
-    }
-
-    add = () => {
-        this.setState(current => ({
-            count : current.count + 1,
-        }));
+        count :0 ,
     };
-    minus = () => {
-        this.setState(current => ({
-            count : current.count - 1,
-        }));
+    apple = () => {
+        this.setState({count : 사과});
     };
-    render() {
-     return (
-         <div>
-     <h1>This number is: {this.state.count}</h1>
-     <button onClick={this.add}>Add</button>&nbsp;&nbsp;&nbsp;
-     <button onClick={this.minus}>Minus</button>
-     </div>
-     );
+    orange = () => {
+        this.setState({count : 오렌지});
+    };
+    banana = () => {
+        this.setState({count : 바나나});
+    };
+    render () {
+        return (
+        <div>
+         <h1>어떤 과일을 좋아하나요? {this.state.apple} </h1>
+         <button onClick={this.state.apple}>사과</button>
+         <button onClick={this.state.orange}>오렌지</button>
+         <button onClick={this.state.banana}>바나나</button>
+        </div>
+        );
     }
 }
-
 export default App;
