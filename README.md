@@ -2,6 +2,13 @@
 ## movie_app_2020
 React JS Fundametals Course 2020
 
+## 10월16일
+1. constructor() 함수가 render() 함수보다 빠르게 실행된다.
+2. 자바 스크립트는 문자열을 작은, 큰따옴표 중 하나로 감싸 표현한다.
+3. render(), constructor(), componentDidMount()함수는 마운트로 분류하는 생명주기 함수이다.
+4. componentDidUpdate() 함수는 업데이트로 분류된 생명주기 함수이다.
+5. componentWillUnmount() 함수는 컴포넌트가 죽을때 언마운트로 분류한다.
+
 ## 10월 9일
 1. props 의 자료형을 검사할수 있도록 만들어주는 prop-types라는 도구가 필요하다.
 2. prp-type 설치 명령어는 (npm install prob-types)
