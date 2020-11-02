@@ -2,6 +2,14 @@
 ## movie_app_2020
 React JS Fundametals Course 2020
 
+## 10월30일
+1. movies 키안에 영화데이터가 들어있다 data -> data -> movies 순서대로 객체에 접근하면 원하는 데이터를 볼수있다.
+2. this.setState({movies:movies})와 같이 작성하면 movies state에 영화 데이터를 저장할수있다.
+3. isLoding state false에서 true로 업데이트할려면  그러기 위해서는 Movie컴포넌트가 필요하다.
+4. 컴포넌트를 여러 개 출력할 때는 유일한 값을 이용하여 key props를 추가해야한다.
+
+
+
 ## 10월16일
 1. constructor() 함수가 render() 함수보다 빠르게 실행된다.
 2. 자바 스크립트는 문자열을 작은, 큰따옴표 중 하나로 감싸 표현한다.
