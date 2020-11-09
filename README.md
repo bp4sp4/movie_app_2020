@@ -2,6 +2,12 @@
 ## movie_app_2020
 React JS Fundametals Course 2020
 
+## 11월 6일
+ 1. 사용하지 않는 props는 흐리게 표시되어 있다.
+ 2. 이미지에 마우스 커서를 올리면 alt속성의 값이 나온다.
+ 3. css파일을 만들어으면 App.js Movie.js에 import시켜줘야한다.
+
+
 ## 10월30일
 1. movies 키안에 영화데이터가 들어있다 data -> data -> movies 순서대로 객체에 접근하면 원하는 데이터를 볼수있다.
 2. this.setState({movies:movies})와 같이 작성하면 movies state에 영화 데이터를 저장할수있다.
