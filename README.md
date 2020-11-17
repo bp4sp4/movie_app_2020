@@ -2,6 +2,13 @@
 ## movie_app_2020
 React JS Fundametals Course 2020
 
+## 11월 13일
+1. HashRouter 와 Route 컴포넌트를 임포트해야 Home 컴포넌트가 보인다.
+2. 라우터를 테스트하면 localhost:3000 about컴포넌트는 내용이 보인다.
+3. 주의사항 HashRouter가 제대로 동작하지 않아 /about#/으로 주소가 표시되는 문제가 있다.
+
+
+
 ## 11월 6일
  1. 사용하지 않는 props는 흐리게 표시되어 있다.
  2. 이미지에 마우스 커서를 올리면 alt속성의 값이 나온다.
