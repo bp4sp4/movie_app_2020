@@ -2,6 +2,27 @@
 ## movie_app_2020
 React JS Fundametals Course 2020
 
+## 11월 13일
+1. HashRouter 와 Route 컴포넌트를 임포트해야 Home 컴포넌트가 보인다.
+2. 라우터를 테스트하면 localhost:3000 about컴포넌트는 내용이 보인다.
+3. 주의사항 HashRouter가 제대로 동작하지 않아 /about#/으로 주소가 표시되는 문제가 있다.
+
+
+
+## 11월 6일
+ 1. 사용하지 않는 props는 흐리게 표시되어 있다.
+ 2. 이미지에 마우스 커서를 올리면 alt속성의 값이 나온다.
+ 3. css파일을 만들어으면 App.js Movie.js에 import시켜줘야한다.
+
+
+## 10월30일
+1. movies 키안에 영화데이터가 들어있다 data -> data -> movies 순서대로 객체에 접근하면 원하는 데이터를 볼수있다.
+2. this.setState({movies:movies})와 같이 작성하면 movies state에 영화 데이터를 저장할수있다.
+3. isLoding state false에서 true로 업데이트할려면  그러기 위해서는 Movie컴포넌트가 필요하다.
+4. 컴포넌트를 여러 개 출력할 때는 유일한 값을 이용하여 key props를 추가해야한다.
+
+
+
 ## 10월16일
 1. constructor() 함수가 render() 함수보다 빠르게 실행된다.
 2. 자바 스크립트는 문자열을 작은, 큰따옴표 중 하나로 감싸 표현한다.
